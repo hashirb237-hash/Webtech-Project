@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DRIpZ | Reviews</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;900&display=swap">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+<section class="w">
+<h2>Voices of satisfaction<br>of our client's <em>words</em></h2>
+<div class="rv">
+<b id="rc"></b>
+<div>
+<p class="q" id="rq"></p>
+<div class="who"><span class="av" id="ri"></span><div><b id="rn"></b><br><span class="m" id="rl"></span></div></div>
+<div class="ctl"><button class="rb" id="rp" aria-label="Previous">←</button><button class="rb on" id="rx" aria-label="Next">→</button><span style="margin-left:14px">★ 4.8 / 5.0</span></div>
+</div>
+</div>
+</section>
+
+<section class="w" style="padding-top:0"><div class="two">
+<div><p class="tag">Your turn</p><h2>Leave a<br><em>review</em></h2></div>
+<form class="box f" data-ok="rev" novalidate>
+<label>Full name<input name="fullname" data-v="fullname" autocomplete="name"><small></small></label>
+<label>Email<input name="email" type="email" data-v="email" autocomplete="email"><small></small></label>
+<label>Rating<select name="rate" data-v="rate"><option value="">Choose…</option><option value="5">5 – Loved it</option><option value="4">4</option><option value="3">3</option><option value="2">2</option><option value="1">1</option></select><small></small></label>
+<label>Your review<textarea name="msg" rows="4" data-v="msg"></textarea><small></small></label>
+<button class="btn">Send review<i>↗</i></button>
+<p class="ok" role="status"></p>
+</form>
+</div></section>
+
+<script src="common.js" defer></script>
+<script src="reviews.js" defer></script>
+</body>
+</html>

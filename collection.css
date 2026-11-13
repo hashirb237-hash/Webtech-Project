@@ -1,0 +1,3 @@
+.grid{display:flex;gap:16px}
+.grid{flex-wrap:wrap}
+.grid .card{flex:1 1 230px;max-width:290px}

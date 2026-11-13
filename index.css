@@ -1,0 +1,11 @@
+.hero{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;max-width:1200px;width:calc(100% - 24px);min-height:min(88vh,700px);margin:12px auto 0;padding:40px;border-radius:var(--r);color:#fff;background:linear-gradient(rgba(10,154,47,.6),rgba(10,154,47,.35)),url(images/hero.jpg) center 40%/cover var(--g)}
+.hero p{max-width:260px;font-size:13px;margin-bottom:16px}
+.hero h1{font-size:clamp(52px,11vw,150px);text-align:right;line-height:.85}
+.rail{display:flex;gap:16px}
+.rail{overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.bar{flex:1;height:2px;background:#cfd8d1;margin-right:20px}
+.bar b{display:block;height:100%;width:30%;background:var(--d);transition:.2s}
+.bento{display:grid;grid-template-columns:1.4fr 1fr;grid-template-rows:1fr 1fr;gap:16px;height:640px}
+.bento .card{aspect-ratio:auto;flex:none}
+.bento .card:first-child{grid-row:span 2}
+@media(max-width:900px){.bento{grid-template-columns:1fr;grid-template-rows:none;height:auto}.bento .card{aspect-ratio:3/3.5}.bento .card:first-child{grid-row:auto}.hero{padding:24px}.hero h1{text-align:left}}

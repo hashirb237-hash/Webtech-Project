@@ -1,0 +1,5 @@
+.band{background:var(--g);color:#fff;border-radius:var(--r);padding:70px 30px;text-align:center;max-width:1176px;margin:0 auto}
+.vals{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.vals div{background:#fff;border-radius:16px;padding:28px;border-top:4px solid var(--g)}
+.vals b{color:var(--g)}
+.vals p{color:var(--m)}

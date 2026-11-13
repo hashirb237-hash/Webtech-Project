@@ -1,0 +1,8 @@
+.lb{align-items:stretch}
+.lb>div:first-child{flex:1 1 420px}
+.row{display:flex;justify-content:space-between;gap:20px;padding:22px 18px;border-top:1px solid #1d3426;cursor:pointer}
+.row p{color:#8fa396;font-size:13px;max-width:340px;margin-top:6px}
+.row b{font-size:20px}
+.row.on{background:var(--g)}
+.row.on p{color:#e6ffe9}
+.lk{flex:1 1 300px;max-width:420px;aspect-ratio:3/4;border-radius:16px;overflow:hidden;background:var(--y)}

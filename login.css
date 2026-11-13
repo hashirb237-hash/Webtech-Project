@@ -1,0 +1,11 @@
+.pw{position:relative;display:block}
+.pw button{position:absolute;right:10px;top:50%;transform:translateY(-50%);margin-top:3px;background:0;border:0;color:var(--g);font:700 12px Archivo,Arial;cursor:pointer}
+.tabs{display:flex;gap:6px;margin-bottom:22px}
+.auth{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.side{position:relative;border-radius:var(--r);overflow:hidden;min-height:480px;display:flex;align-items:flex-end;padding:30px;color:#fff;background:var(--g)}
+.side img{position:absolute;inset:0}
+.side:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,rgba(6,21,12,.8))}
+.side h2{position:relative;z-index:1}
+.chk{display:flex!important;gap:8px;align-items:center;text-transform:none!important;font-weight:400!important}
+.chk input{width:auto;margin:0}
+@media(max-width:900px){.auth{grid-template-columns:1fr}}

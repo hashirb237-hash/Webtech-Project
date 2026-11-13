@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DRIpZ | Login</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;900&display=swap">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<section class="w auth">
+<div class="side"><img src="images/about-hero.jpg" alt="DRIpZ crew"><h2>Wear your<br><em>energy</em></h2></div>
+<form class="box f" data-ok="login" novalidate style="align-self:center">
+<div class="tabs"><button type="button" class="chip tab on" data-m="in">Log in</button><button type="button" class="chip tab" data-m="up">Sign up</button></div>
+<h2 id="ah" style="font-size:40px">Welcome back</h2>
+<label class="su" hidden>Full name<input name="fullname" data-v="fullname" autocomplete="name"><small></small></label>
+<label>Email<input name="email" type="email" data-v="email" autocomplete="email"><small></small></label>
+<label>Password<span class="pw"><input name="pass" type="password" data-v="pass" placeholder="8+ characters, letter and number" autocomplete="current-password"><button type="button" id="eye">Show</button></span><small></small></label>
+<label class="su" hidden>Confirm password<input name="confirm" type="password" data-v="match" autocomplete="new-password"><small></small></label>
+<label class="chk"><input type="checkbox" name="rem"> Remember my email</label>
+<button class="btn" id="sub"><span>Log in</span><i>↗</i></button>
+<p class="ok" role="status"></p>
+</form>
+</section>
+
+<script src="common.js" defer></script>
+<script src="login.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.thumbs{display:flex;gap:16px}
+.pdp{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.pdp .ph button{position:absolute;bottom:16px}
+#pp{left:16px}
+.opt{margin:18px 0}
+.opt b{display:block;font-size:12px;text-transform:uppercase;color:var(--m);margin-bottom:8px}
+.sw{display:inline-block;width:28px;height:28px;border-radius:50%;margin-right:10px;cursor:pointer;border:3px solid #fff;box-shadow:0 0 0 1.5px #c3cfc6}
+.sw.on{box-shadow:0 0 0 2px var(--d)}
+.thumbs .card{flex:1;aspect-ratio:1}
+.thumbs h3,.thumbs span{display:none}
+#pn{left:64px}
+@media(max-width:900px){.pdp{grid-template-columns:1fr}}

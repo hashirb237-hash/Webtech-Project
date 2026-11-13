@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DRIpZ - Product of the Month</title>
-<link rel="stylesheet" href="style1.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DRIpZ | Product of the Month</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;900&display=swap">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="Productofthemonth.css">
 </head>
 <body>
-
-<nav>
-<h2>DRIpZ.</h2>
-<a href="index.html">Home</a> | <a href="about.html">Our World</a> | <a href="Productofthemonth.html" class="active">Product of the Month</a>
-</nav>
-
-<h1>PRODUCT OF THE MONTH</h1>
-
-<img src="images/product.jpg" alt="Skyline Hoodie">
-
-<div class="info">
-<h2>Skyline Oversized Hoodie</h2>
-<p class="tag">★ BEST SELLER ★</p>
-<p class="price">Rs. 3,500</p>
-<p>Electric blue. Night city on your back.</p>
-<p><b>Sold:</b> 850+ pieces</p>
-<p><b>Rating:</b> 4.8 / 5</p>
-<button>SHOP NOW</button>
+<section class="w pdp">
+<div class="ph c1"><img id="pi" alt="">
+<button class="rb" id="pp" aria-label="Previous product">←</button><button class="rb on" id="pn" aria-label="Next product">→</button></div>
+<div class="pinfo">
+<p class="tag" id="ptag">★ Product of the month · Best seller</p>
+<h1 id="pt" style="font-size:clamp(40px,6vw,76px)"></h1>
+<p class="m" style="margin-top:14px">Electric blue. Night city on your back. Premium fabric and an oversized streetwear fit, made to stand out.</p>
+<p id="sold" style="margin-top:10px"><b>Sold:</b> 850+ pieces · <b>Rating:</b> 4.8 / 5</p>
+<div class="opt"><b>Colors</b><div id="cols"></div></div>
+<div class="opt"><b>Size</b><div id="sz"></div></div>
+<div class="buy"><strong id="pr"></strong><button class="btn" id="add">Add to bag<i>↗</i></button></div>
+<p id="msg" role="status"></p>
+<div class="opt" style="margin-top:30px"><b>You may also like</b></div>
+<div class="thumbs"></div>
 </div>
+</section>
 
-<footer>
-DRIpZ. | Wear Your Energy.
-</footer>
-
+<script src="common.js" defer></script>
+<script src="Productofthemonth.js" defer></script>
 </body>
 </html>
